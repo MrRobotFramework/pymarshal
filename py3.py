@@ -65,8 +65,8 @@ else:
         sys.exit()
 
 fileout = open(o + 'enc.py', 'w')
-fileout.write('#Compiled By DfvTools\n')
-fileout.write('#https://github.com/md4fv\n')
+fileout.write('#Compiled By MrRobot404\n')
+fileout.write('#https://www.youtube.com/c/MrRobotFramework\n')
 fileout.write('import marshal\n')
 fileout.write('exec(marshal.loads(' + repr(data) + '))')
 fileout.close()
